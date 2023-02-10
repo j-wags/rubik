@@ -1,12 +1,12 @@
 # rubik
 
-[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/marwahaha/rubik/master?filepath=cube.ipynb)
+[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/j-wags/rubik/master?filepath=cube.ipynb)
 
 Rubik's cube simulator and solver in Jupyter notebook
 
-1. View the [interactive Binder notebook](https://mybinder.org/v2/gh/marwahaha/rubik/master?filepath=cube.ipynb).
-2. The notebook should render on Github: [cube.ipynb](https://github.com/marwahaha/rubik/blob/master/cube.ipynb).
-3. Use [nbviewer](http://nbviewer.ipython.org/github/marwahaha/rubik/blob/master/cube.ipynb).
+1. View the [interactive Binder notebook](https://mybinder.org/v2/gh/j-wags/rubik/master?filepath=cube.ipynb).
+2. The notebook should render on Github: [cube.ipynb](https://github.com/j-wags/rubik/blob/master/cube.ipynb).
+3. Use [nbviewer](http://nbviewer.ipython.org/github/j-wags/rubik/blob/master/cube.ipynb).
 
 Of course, forks and comments are welcome!
 
@@ -38,9 +38,5 @@ RRU_Move.run(n) #Right Face, Right-Up (sometimes called Back-Left)
 ```
 ### Mixing
 ```mixup(n)``` will make n random moves on the cube, "mixing it up"
-### Solving
-```solve()``` will (_should!_) solve the cube, and print the raw number of moves. This is effectively the algorithm I use when I solve Rubik's cubes.
 
-## Have fun!
-I sure enjoyed this project. Let me know if there are bugs or comments :-)
-
+This is a fork of https://github.com/marwahaha/rubik with the solving code removed to make it a fresh challenge. Good luck!
